@@ -1,6 +1,15 @@
 # cardano-tip-bot
 Use @CardanoTipBot to tip ADA &amp; tokens with Twitter!
 
+## Supported assets
+1. ada / lovelace
+2. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) 
+
+## Fees
+1. Deposit fee: 0.1 ada + network transaction fee (about 0.18-0.20 ada)
+2. Withdrawal fee: 0.1 ada + network transaction fee (about 0.18-0.20 ada)
+3. Tip: Free!
+
 ## How to use
 ### Direct messages
 You can send a direct message to @CardanoTipBot to view information about your wallet:
@@ -40,6 +49,7 @@ You can send a direct message to @CardanoTipBot to view information about your w
     - `address` is a shelley address you own **that is not an exchange**
     - `assets` is a single or multiple assets in the following format `amount asset[, amount asset[,...]]`. Valid examples:
         - `3 ada`
+        - `1000 lovelace`
         - `3 ada, 1000000 hosky`
         - `1000000 hosky`
     
@@ -50,6 +60,7 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <ass
 
 - `assets` is a single or multiple assets in the following format `amount asset[, amount asset[,...]]`. Valid examples:
     - `3 ada`
+    - `1000 lovelace`
     - `3 ada, 1000000 hosky`
     - `1000000 hosky`
     
