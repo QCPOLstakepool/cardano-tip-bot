@@ -1,5 +1,8 @@
 # cardano-tip-bot
-Use @CardanoTipBot to tip ADA &amp; tokens with Twitter!
+Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens with Twitter!
+
+## Disclamer
+This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
 
 ## Supported assets
 1. ada / lovelace
@@ -12,7 +15,7 @@ Use @CardanoTipBot to tip ADA &amp; tokens with Twitter!
 
 ## How to use
 ### Direct messages
-You can send a direct message to @CardanoTipBot to view information about your wallet:
+You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to view information about your wallet:
 
 1. `!info` will return the following message:
 
