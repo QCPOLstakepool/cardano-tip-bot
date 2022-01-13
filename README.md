@@ -5,7 +5,7 @@ Use @CardanoTipBot to tip ADA &amp; tokens with Twitter!
 ### Direct messages
 You can send a direct message to @CardanoTipBot to view information about your wallet:
 
-1. `info` will return the following message:
+1. `!info` will return the following message:
 
     ``` 
     USE AT YOUR OWN RISKS!
@@ -44,3 +44,13 @@ You can send a direct message to @CardanoTipBot to view information about your w
         - `1000000 hosky`
     
     The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky`
+
+### Tweets
+You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <assets>` where `assets`:
+
+- `assets` is a single or multiple assets in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+    - `3 ada`
+    - `3 ada, 1000000 hosky`
+    - `1000000 hosky`
+    
+The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky`
