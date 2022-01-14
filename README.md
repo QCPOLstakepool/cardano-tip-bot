@@ -68,3 +68,12 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <ass
     - `1000000 hosky`
     
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky`
+
+## FAQ
+
+TODO
+
+## Like the bot? Support us!
+If you like bot and would like to support us, you can:
+1) Tip the bot on Twitter (reply `@CardanoTipBot !tip 1 ada` to a tweet by @CardanoTipBot)
+2) Stake some ADA with [QCPOL](https://pool.pm/c2b8bff5160dd75149f2cae0955698550e8cf0d390025b26a9508a3e)
