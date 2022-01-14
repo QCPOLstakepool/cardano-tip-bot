@@ -15,7 +15,7 @@ This software is provided to promote engagement in the Twitter [#cardano](https:
 
 ## How to use
 ### Direct messages
-You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to view information about your wallet:
+You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to create and view information about your wallet:
 
 1. `!info` will return the following message:
 
