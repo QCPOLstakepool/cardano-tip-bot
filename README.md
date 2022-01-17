@@ -4,6 +4,9 @@ Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens 
 ## Disclamer
 This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
 
+## Limitations
+This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
+
 ## Supported assets
 1. ada / lovelace
 2. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) 
@@ -30,6 +33,8 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     2000000 HOSKY
 
     Your deposit address is: addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    Your deposit address will be monitored for the next 24 hours. You will need to message me again to restart the monitoring.
+    You will receive a message when a deposit is processed.
 
     Only deposit supported assets*:
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
