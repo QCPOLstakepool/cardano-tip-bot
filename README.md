@@ -12,8 +12,8 @@ This bot uses the Twitter API which has some limits. For example, direct message
 2. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) 
 
 ## Fees
-1. Deposit fee: 0.1 ada + network transaction fee (about 0.18-0.20 ada)
-2. Withdrawal fee: 0.1 ada + network transaction fee (about 0.18-0.20 ada)
+1. Deposit fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
+2. Withdrawal fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
 3. Tip: Free!
 
 ## How to use
@@ -73,6 +73,9 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <ass
     - `1000000 hosky`
     
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky`
+
+## How it works
+TODO
 
 ## FAQ
 
