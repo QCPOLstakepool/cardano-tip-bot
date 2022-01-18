@@ -25,14 +25,15 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     ``` 
     USE AT YOUR OWN RISKS!
     WE ARE NOT RESPONSIBLE OF LOST FUNDS!
-
-    Documentation: https://github.com/QCPOLstakepool/cardano-tip-bot
+    
+    Please refer to the user guide in my profile's description for how to use me.
 
     Your balance is:
     7.952868 ADA
     2000000 HOSKY
 
     Your deposit address is: addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    
     Your deposit address will be monitored for the next 24 hours. You will need to message me again to restart the monitoring.
     You will receive a message when a deposit is processed.
 
@@ -45,32 +46,40 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
 
     Available commands:
     !info
-    !withdraw <address> <assets>
+    !withdraw <address> <amount> <asset>
 
     * Any deposit containing an unsupported asset will be returned MANUALLY, minus deposit fee**
 
     ** Plus an extra TX fee of about 0.2 ADA to move to/from master wallet
     ``` 
     
-2. `!withdraw <address> <assets>` will allow you to send the `<assets>` to an `<address>` where:
+2. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
 
     - `address` is a shelley address you own **that is not an exchange**
-    - `assets` is a single or multiple assets in the following format `amount asset[, amount asset[,...]]`. Valid examples:
-        - `3 ada`
-        - `1000 lovelace`
-        - `3 ada, 1000000 hosky`
-        - `1000000 hosky`
+    - `amount` is the amount you want to withdraw
+    - `asset` is the asset you want to withdraw
     
-    The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky`
-
-### Tweets
-You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <assets>` where `assets`:
-
-- `assets` is a single or multiple assets in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+    Multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+    
     - `3 ada`
     - `1000 lovelace`
     - `3 ada, 1000000 hosky`
     - `1000000 hosky`
+    
+    The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky`
+
+### Tweets
+You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amount> <asset>` where:
+
+- `amount` is the amount you want to tip
+- `asset` is the asset you want to tip
+
+Multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+
+- `3 ada`
+- `1000 lovelace`
+- `3 ada, 1000000 hosky`
+- `1000000 hosky`
     
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky`
 
