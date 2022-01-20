@@ -2,14 +2,15 @@
 Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens with Twitter!
 
 ## Disclamer
-This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
+This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community in a fun way. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
 
 ## Limitations
 This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
 
 ## Supported assets
-1. ada / lovelace
-2. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) 
+1. ada (6 decimals: `0.000000`) 1 ada = 1000000 lovelace
+2. lovelace (0 decimal) 1 lovelace = 0.000001 ada
+3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (no decimal)
 
 ## Fees
 1. Deposit fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
