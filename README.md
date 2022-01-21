@@ -4,7 +4,7 @@ Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens 
 ## Disclamer
 This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community in a fun way. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
 
-## Limitations
+## Limitations / Processing delays
 This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
 
 When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
