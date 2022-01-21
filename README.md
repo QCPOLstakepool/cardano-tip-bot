@@ -7,10 +7,14 @@ This software is provided to promote engagement in the Twitter [#cardano](https:
 ## Limitations
 This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
 
+When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
+
 ## Supported assets
 1. ada (6 decimals: `0.000000`) 1 ada = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ada
 3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (no decimal)
+
+Any decimals beyond what's declared above will be discarded. For example `1.23456789 ada` is automatically converted to `1.234567 ada` (ie `1234567 lovelace`).
 
 ## Fees
 1. Deposit fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
@@ -86,6 +90,7 @@ Multiple amount and assets can be specified in the following format `amount asse
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!`
 
 ## How it works
+
 TODO
 
 ## FAQ
