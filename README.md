@@ -97,6 +97,7 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
     - Withdraw assets
 
 ### Phase 2
+- [$handle](https://adahandle.com/) integration for withdraw
 - Discord integration
     - Deposit assets
     - Tip other users
