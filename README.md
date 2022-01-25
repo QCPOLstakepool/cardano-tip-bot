@@ -105,6 +105,12 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
 ### Phase 3
 - More Discord integration (surprises 😉)
 
+### TBD
+- Hydra integration
+    - Remove central database
+    - Tipping is done on-chain
+    - Allow user to retrieve their private keys (seed)
+
 ## How it works
 
 TODO
