@@ -52,7 +52,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     Show this message
     
     !deposit
-    Show your deposit address & activate the monitoring of your deposits for the next 3 hours
+    Show your deposit address & activate the monitoring of your deposit address for the next 3 hours
     
     !withdraw <address> <amount> <asset>
     Withdraw ADA & assets
