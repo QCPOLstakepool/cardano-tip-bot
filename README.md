@@ -96,11 +96,11 @@ Multiple amount and assets can be specified in the following format `amount asse
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!`
 
 ## Roadmap
-### Phase 1
-- Twitter integration
-    - Deposit assets
-    - Tip other users
-    - Withdraw assets
+### Phase 1 ✅ 2022-01-29
+- Twitter integration ✅ 2022-01-29
+    - Deposit assets ✅ 2022-01-29
+    - Tip other users ✅ 2022-01-29
+    - Withdraw assets ✅ 2022-01-29
 
 ### Phase 2
 - [$handle](https://adahandle.com/) integration for withdraw
