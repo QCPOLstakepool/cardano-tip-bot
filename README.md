@@ -120,7 +120,13 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
 
 ## FAQ
 
-TODO
+<details>
+  <summary>I made a deposit, but my account was never credited.</summary>
+    
+  1. Make sure the bot still scans your deposit address. To reduce load on the servers, addresses without activity are not scanned after 24 hours. You can DM [@CardanoTipBot](https://twitter.com/CardanoTipBot) to enable the scanning of your address again.
+  2. Make sure you deposited enough $ada to pay the fees to transfer to the master wallet. Each UTxO needs at least 1.0 $ada attached so if you deposited exactly 1.0 $ada the bot can't transfer to the master wallet. You can check your deposit address balance on [cardanoscan.io](https://cardanoscan.io). You can also send more $ada to cover the fees. A safe amount to deposit is 1.5 $ada. 
+  3. Contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for assistance. 
+</details>
 
 ## Like the bot? Support us!
 If you like bot and would like to support us, you can:
