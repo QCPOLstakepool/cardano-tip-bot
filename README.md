@@ -43,28 +43,42 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     7.952868 ADA
     2000000 HOSKY
 
+    Minimum withdrawal amount: 2.0 ADA
+    Withdrawal fee*: 0.1 ADA
+
+    Available commands:
+    !info: Show this message
+    !deposit: Show your deposit address & activate the monitoring of your deposits for the next 3 hours
+    !withdraw <address> <amount> <asset>: Withdraw ADA & assets
+
+    * Plus an extra network fee of about 0.2 ADA to move to/from master wallet
+    ``` 
+    
+2. `!deposit` will return the following message:
+
+    ``` 
+    USE AT YOUR OWN RISKS!
+    WE ARE NOT RESPONSIBLE OF LOST FUNDS!
+    
+    Please refer to the user guide in my profile's description for how to use me.
+    
     Your deposit address is: addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
-    Your deposit address will be monitored for the next 24 hours. You will need to message me again to restart the monitoring.
+    Your deposit address will be monitored for the next 3 hours. You will need to message me again to restart the monitoring.
     You will receive a message when a deposit is processed.
 
     Only deposit supported assets*:
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
 
-    Minimum withdrawal amount: 2.0 ADA
+    Minimum deposit amount: ~1.5 ADA
     Deposit fee**: 0.1 ADA
-    Withdrawal fee**: 0.1 ADA
-
-    Available commands:
-    !info
-    !withdraw <address> <amount> <asset>
-
+    
     * Any deposit containing an unsupported asset will be returned MANUALLY, minus deposit fee**
 
-    ** Plus an extra TX fee of about 0.2 ADA to move to/from master wallet
-    ``` 
-    
-2. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
+    ** Plus an extra network fee of about 0.2 ADA to move to/from master wallet
+    ```
+
+3. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
 
     - `address` is a shelley address you own **that is not an exchange**
     - `amount` is the amount you want to withdraw
@@ -84,7 +98,7 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amo
 
 - `amount` is the amount you want to tip
 - `asset` is the asset you want to tip
-- `message` is arbitrary text
+- `message` is an optional text
 
 Multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
 
@@ -123,7 +137,7 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
 <details>
   <summary>I made a deposit, but my account was never credited.</summary>
     
-  1. Make sure the bot still scans your deposit address. To reduce load on the servers, addresses without activity are not scanned after 24 hours. You can DM [@CardanoTipBot](https://twitter.com/CardanoTipBot) to enable the scanning of your address again.
+  1. Make sure the bot still scans your deposit address. To reduce load on the servers, addresses without activity are not scanned after 3 hours. You can DM `!deposit` to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to enable the scanning of your address again.
   2. Make sure you deposited enough $ada to pay the fees to transfer to the master wallet. Each UTxO needs at least 1.0 $ada attached so if you deposited exactly 1.0 $ada the bot can't transfer to the master wallet. You can check your deposit address balance on [cardanoscan.io](https://cardanoscan.io). You can also send more $ada to cover the fees. A safe amount to deposit is 1.5 $ada. 
   3. Contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for assistance. 
 </details>
