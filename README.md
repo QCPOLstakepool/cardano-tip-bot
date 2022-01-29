@@ -47,9 +47,15 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     Withdrawal fee*: 0.1 ADA
 
     Available commands:
-    !info: Show this message
-    !deposit: Show your deposit address & activate the monitoring of your deposits for the next 3 hours
-    !withdraw <address> <amount> <asset>: Withdraw ADA & assets
+    
+    !info
+    Show this message
+    
+    !deposit
+    Show your deposit address & activate the monitoring of your deposits for the next 3 hours
+    
+    !withdraw <address> <amount> <asset>
+    Withdraw ADA & assets
 
     * Plus an extra network fee of about 0.2 ADA to move to/from master wallet
     ``` 
