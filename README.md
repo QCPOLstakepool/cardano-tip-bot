@@ -65,6 +65,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     Your deposit address is: addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
     Your deposit address will be monitored for the next 3 hours. You will need to message me again to restart the monitoring.
+    
     You will receive a message when a deposit is processed.
 
     Assets supported for deposits*:
