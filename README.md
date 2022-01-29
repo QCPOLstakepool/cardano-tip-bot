@@ -67,7 +67,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     Your deposit address will be monitored for the next 3 hours. You will need to message me again to restart the monitoring.
     You will receive a message when a deposit is processed.
 
-    Only deposit supported assets*:
+    Assets supported for deposits*:
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
 
     Minimum deposit amount: ~1.5 ADA
