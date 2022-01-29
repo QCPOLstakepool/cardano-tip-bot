@@ -23,7 +23,7 @@ Any decimals beyond what's declared above will be discarded. For example `1.2345
 
 ## How it works
 
-Each Twitter user gets assigned its own, unique deposit address. The user sends $ada & supported assets to its address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ada & assets at any time.
+Each Twitter user gets assigned its own, unique deposit address. The user sends $ada & supported assets to its deposit address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ada & assets at any time.
 
 ![HowItWorks.drawio.svg](HowItWorks.drawio.svg)
 
