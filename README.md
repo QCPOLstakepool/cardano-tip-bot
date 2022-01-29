@@ -25,6 +25,8 @@ Any decimals beyond what's declared above will be discarded. For example `1.2345
 
 Each Twitter user gets assigned its own, unique deposit address. The user sends $ada & supported assets to its address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ada & assets at any time.
 
+![HowItWorks.drawio.svg](HowItWorks.drawio.svg)
+
 ## How to use
 ### Direct messages
 You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to create and view information about your wallet:
