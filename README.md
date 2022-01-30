@@ -77,7 +77,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     Assets supported for deposits*:
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
 
-    Minimum deposit amount: ~1.5 ADA
+    Minimum recommended deposit amount: 2.0 ADA
     Deposit fee**: 0.1 ADA
     
     * Any deposit containing an unsupported asset will be returned MANUALLY, minus deposit fee**
