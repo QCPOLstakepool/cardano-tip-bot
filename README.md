@@ -38,7 +38,7 @@ On Twitter, you can send a direct message to [@CardanoTipBot](https://twitter.co
 
 On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to create and view information about your wallet:
 
-<b>WARNING : Make sure the Discord username is <b>Cardano Tip Bot#7235</b>. If the identifier after Cardano Tip Bot is not #7235, it might be a SCAM.</b>
+<b>WARNING FOR DISCORD USERS : Make sure the Discord username is <b>Cardano Tip Bot#7235</b>. If the identifier after Cardano Tip Bot is not #7235, it might be a SCAM.</b>
 
 1. `!info` will return the following message:
 
@@ -116,23 +116,26 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amo
 - `asset` is the asset you want to tip
 - `message` is an optional text
 
-Multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+
+### How to tip on Discord?
+Before tipping someone make sure the bot is on the Discord Server by checking for user <b>Cardano Tip Bot#7235</b>.
+
+You can tip someone by sending the following message in a public Discord channel : `!tip @DiscordUser <amount> <asset> [message]` where:
+- `@DiscordUser` is the tag of the person you want to tip
+- `amount` is the amount you want to tip
+- `asset` is the asset you want to tip
+- `message` is an optional text
+
+### Can I send multiple assets in the same command?
+
+Yes, multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
 
 - `3 ada`
 - `1000 lovelace`
 - `3 ada, 1000000 hosky`
 - `1000000 hosky`
     
-The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!`
-
-### How to tip on Discord?
-Before tipping someone make sure the bot is on the Discord Server by checking for user <b>Cardano Tip Bot#7235</b>.
-
-You can tip someone by sending the following message : `!tip @DiscordUser <amount> <asset> [message]` where:
-- `@DiscordUser` is the tag of the person you want to tip
-- `amount` is the amount you want to tip
-- `asset` is the asset you want to tip
-- `message` is an optional text
+The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!` on Twitter or `!tip @DiscordUser 3 ada, 1000000 hosky wow great work, thank you!` on Discord.
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
