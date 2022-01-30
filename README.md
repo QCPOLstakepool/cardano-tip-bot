@@ -1,12 +1,15 @@
 # cardano-tip-bot
 Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens with Twitter!
+Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 
 ## Disclamer
-This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community in a fun way. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
+This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community or any Cardano Discord server in a fun way. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
 
 ## Limitations / Processing delays
+Twitter version :
 This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
 
+Twitter and Discord version :
 When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
 
 ## Supported assets
@@ -23,13 +26,19 @@ Any decimals beyond what's declared above will be discarded. For example `1.2345
 
 ## How it works
 
-Each Twitter user gets assigned its own, unique deposit address. The user sends $ada & supported assets to its deposit address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ada & assets at any time.
+Each Twitter user or Discord user gets assigned its own, unique deposit address. The user sends $ada & supported assets to its deposit address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ada & assets at any time.
 
 ![HowItWorks.drawio.svg](HowItWorks.drawio.svg)
 
+It is not possible to link your Twitter and Discord account at the moment, but it may be possible in the future. 
+
 ## How to use
-### Direct messages
-You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to create and view information about your wallet:
+### Direct/Private messages
+On Twitter, you can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to create and view information about your wallet:
+
+On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to create and view information about your wallet:
+
+<b>WARNING : Make sure the Discord username is <b>Cardano Tip Bot#7235</b>. If the identifier after Cardano Tip Bot is not #7235, it might be a SCAM.</b>
 
 1. `!info` will return the following message:
 
@@ -90,7 +99,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     - `address` is a shelley address you own **that is not an exchange**
     - `amount` is the amount you want to withdraw
     - `asset` is the asset you want to withdraw
-    
+
     Multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
     
     - `3 ada`
@@ -100,7 +109,7 @@ You can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTip
     
     The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky`
 
-### Tweets
+### How to tip on Twitter?
 You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amount> <asset> [message]` where:
 
 - `amount` is the amount you want to tip
@@ -116,6 +125,15 @@ Multiple amount and assets can be specified in the following format `amount asse
     
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!`
 
+### How to tip on Discord?
+Before tipping someone make sure the bot is on the Discord Server by checking for user <b>Cardano Tip Bot#7235</b>.
+
+You can tip someone by sending the following message : `!tip @DiscordUser <amount> <asset> [message]` where:
+- `@DiscordUser` is the tag of the person you want to tip
+- `amount` is the amount you want to tip
+- `asset` is the asset you want to tip
+- `message` is an optional text
+
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
 - Twitter integration ✅ 2022-01-29
@@ -125,10 +143,10 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
 
 ### Phase 2
 - [$handle](https://adahandle.com/) integration for withdraw
-- Discord integration
-    - Deposit assets
-    - Tip other users
-    - Withdraw assets
+- Discord integration 🚧 [work in progress]
+    - Deposit assets 🚧
+    - Tip other users 🚧
+    - Withdraw assets 🚧
 
 ### Phase 3
 - More Discord integration (surprises 😉)
