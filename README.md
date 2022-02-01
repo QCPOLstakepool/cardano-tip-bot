@@ -57,6 +57,9 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
 
     Available commands:
     
+    !balance
+    Show your balance
+    
     !info
     Show this message
     
@@ -69,7 +72,15 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     * Plus an extra network fee of about 0.2 ADA to move to/from master wallet
     ``` 
     
-2. `!deposit` will return the following message:
+2. `!balance` will return the following message:
+  
+    ``` 
+    Your balance is:
+    7.952868 ADA
+    2000000 HOSKY
+    ``` 
+    
+3. `!deposit` will return the following message:
 
     ``` 
     USE AT YOUR OWN RISKS!
@@ -94,7 +105,7 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     ** Plus an extra network fee of about 0.2 ADA to move to/from master wallet
     ```
 
-3. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
+4. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
 
     - `address` is a shelley address you own **that is not an exchange**
     - `amount` is the amount you want to withdraw
