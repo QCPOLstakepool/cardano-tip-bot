@@ -7,10 +7,16 @@ This software is provided to promote engagement in the Twitter [#cardano](https:
 
 ## Limitations / Processing delays
 Twitter version :
-This bot uses the Twitter API which has some limits. For example, direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
+This bot uses the Twitter API which has some limits:
+
+1. Direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
+2. Tweets have a rate limit of 300 per 3h so the bot might not reply to a tweet after it successfully sent a tip.
+3. If the bot can't reply to a tweet, it will try to like the tweet instead. Again, this has a rate limit of 1000 likes per 24h so the bot might not be able to like a tweet after successfully sending a tip.
+
+You can always send `!balance` as direct message to the bot to validate that your tip went through.
 
 Twitter and Discord version :
-When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
+1. When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
 
 ## Supported assets
 1. ada (6 decimals: `0.000000`) 1 ada = 1000000 lovelace
