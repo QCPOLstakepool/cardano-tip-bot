@@ -25,6 +25,11 @@ Twitter and Discord version :
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ada` is automatically converted to `1.234567 ada` (ie `1234567 lovelace`).
 
+`k`, `M` and `B` suffixes are supported everywhere you can specify an amount:
+- `k` = * 1 000 (`1k HOSKY` = `1000 HOSKY`)
+- `M` = * 1 000 000 (`1M HOSKY` = `1000000 HOSKY`)
+- `B` = * 1 000 000 000 (`1B HOSKY` = `1000000000 HOSKY`)
+
 ## Fees
 1. Deposit fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
 2. Withdrawal fee: 0.1 developer ada + network transaction fee (about 0.18-0.20 ada)
@@ -72,7 +77,7 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     !deposit
     Show your deposit address & activate the monitoring of your deposit address for the next 3 hours
     
-    !withdraw <address> <amount> <asset>
+    !withdraw <address or $handle> <amount> <asset>
     Withdraw ADA & assets
 
     * Plus an extra network fee of about 0.2 ADA to move to/from master wallet
@@ -111,9 +116,9 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     ** Plus an extra network fee of about 0.2 ADA to move to/from master wallet
     ```
 
-4. `!withdraw <address> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
+4. `!withdraw <address or $handle> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
 
-    - `address` is a shelley address you own **that is not an exchange**
+    - `address or $handle` is a shelley address you own or your ADA $handle **that is not an exchange**
     - `amount` is the amount you want to withdraw
     - `asset` is the asset you want to withdraw
 
@@ -124,7 +129,7 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     - `3 ada, 1000000 hosky`
     - `1000000 hosky`
     
-    The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky`
+    The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ada, 1000000 hosky` or `!withdraw $your_ada_handle 4 ada`
 
 ### How to tip on Twitter?
 You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amount> <asset> [message]` where:
@@ -132,7 +137,6 @@ You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amo
 - `amount` is the amount you want to tip
 - `asset` is the asset you want to tip
 - `message` is an optional text
-
 
 ### How to tip on Discord?
 Before tipping someone make sure the bot is on the Discord Server by checking for user <b>Cardano Tip Bot#7235</b>.
@@ -143,14 +147,10 @@ You can tip someone by sending the following message in a public Discord channel
 - `asset` is the asset you want to tip
 - `message` is an optional text
 
-### Can I send multiple assets in the same command?
-
-Yes, multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
-
-- `3 ada`
-- `1000 lovelace`
-- `3 ada, 1000000 hosky`
-- `1000000 hosky`
+### Discord specific commands
+1. `!rain <duration> <assets>` allows you to distribute `<assets>` equally among everyone who sent at least one message in the last `<duration>` timeframe in the channel. For examples: 
+    - `!rain 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes
+    - `!rain 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes
     
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!` on Twitter or `!tip @DiscordUser 3 ada, 1000000 hosky wow great work, thank you!` on Discord.
 
@@ -162,8 +162,8 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
     - Withdraw assets ✅ 2022-01-29
 
 ### Phase 2
-- [$handle](https://adahandle.com/) integration for withdraw
-- Discord integration 🚧 [BETA testing in progress]
+- [$handle](https://adahandle.com/) ✅ 2022-02-11
+- Discord integration ✅ 2022-01-30
     - Deposit assets ✅ 2022-01-30
     - Tip other users ✅ 2022-01-30
     - Withdraw assets ✅ 2022-01-30
@@ -178,13 +178,23 @@ The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky w
     - Allow user to retrieve their private keys (seed)
 
 ## FAQ
-
 <details>
   <summary>I made a deposit, but my account was never credited.</summary>
     
   1. Make sure the bot still scans your deposit address. To reduce load on the servers, addresses without activity are not scanned after 3 hours. You can DM `!deposit` to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to enable the scanning of your deposit address again.
   2. Make sure you deposited enough $ada to pay the fees to transfer to the master wallet. Each UTxO needs at least 1.0 $ada attached so if you deposited exactly 1.0 $ada the bot can't transfer to the master wallet. You can check your deposit address balance on [cardanoscan.io](https://cardanoscan.io). You can also send more $ada to cover the fees. A safe amount to deposit is 1.5 $ada. 
   3. Contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for assistance. 
+</details>
+  
+<details>
+    <summary>Can I send/withdraw multiple assets in the same command?</summary>
+
+Yes, multiple amount and assets can be specified in the following format `amount asset[, amount asset[,...]]`. Valid examples:
+
+- `3 ada`
+- `1000 lovelace`
+- `3 ada, 1000000 hosky`
+- `1000000 hosky`
 </details>
 
 ## Like the bot? Support us!
