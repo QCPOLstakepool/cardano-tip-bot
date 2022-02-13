@@ -146,13 +146,13 @@ You can tip someone by sending the following message in a public Discord channel
 - `amount` is the amount you want to tip
 - `asset` is the asset you want to tip
 - `message` is an optional text
+    
+The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!` on Twitter or `!tip @DiscordUser 3 ada, 1000000 hosky wow great work, thank you!` on Discord.
 
 ### Discord specific commands
 1. `!rain <duration> <assets>` allows you to distribute `<assets>` equally among everyone who sent at least one message in the last `<duration>` timeframe in the channel. For examples: 
     - `!rain 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes
     - `!rain 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes
-    
-The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!` on Twitter or `!tip @DiscordUser 3 ada, 1000000 hosky wow great work, thank you!` on Discord.
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
