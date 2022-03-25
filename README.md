@@ -2,8 +2,26 @@
 Use [@CardanoTipBot](https://twitter.com/CardanoTipBot) to tip ADA &amp; tokens with Twitter!
 Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 
-## Disclamer
-This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community or any Cardano Discord server in a fun way. It is not (and should not be) used to store ADA or other native assets of the Cardano blockchain. We are not responsible of lost funds or incorrect balances. Use at your own risks!
+## Disclamer / Terms of uses
+
+By using the Cardano Tip Bot you are accepting the following terms :
+
+1. We are not responsible for lost funds or incorrect balances. Use at your own risks!
+2. This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community or any Cardano Discord server in a fun way. 
+
+### Examples of recommended uses of the Cardano Tip Bot
+1. Tip a Cardano community member for a positive contribution to the ecosystem.
+2. Tip a Cardano community member for answering another community member's question with a helpful answer.
+3. Tip a Cardano community member for making a tweet that raises a good debate.
+
+### Examples of what cannot be done when using the Cardano Tip Bot
+1. The Cardano Tip Bot should not be used for online crowdfunding or to fund any political party.
+2. The Cardano Tip Bot can be used with non-Cardano related tweets, but must not spam these non-Cardano related tweets.
+3. The Cardano Tip Bot should not be used in a disrespectful manner to insult or discriminate against another Twitter or Discord user
+4. The Cardano Tip Bot should not be used in any criminal/illegal activities.
+5. Store and/or transfer large amount of ADA or tokens.
+
+If any of the above situations are detected or reported, the account will be blocked from the bot temporarily or permanently.
 
 ## Limitations / Processing delays
 Twitter version :
@@ -56,6 +74,8 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     ``` 
     USE AT YOUR OWN RISKS!
     WE ARE NOT RESPONSIBLE OF LOST FUNDS!
+   
+   BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
     
     Please refer to the user guide in my profile's description for how to use me.
 
@@ -96,6 +116,8 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     ``` 
     USE AT YOUR OWN RISKS!
     WE ARE NOT RESPONSIBLE OF LOST FUNDS!
+   
+   BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
     
     Please refer to the user guide in my profile's description for how to use me.
     
