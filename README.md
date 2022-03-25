@@ -37,9 +37,11 @@ Twitter and Discord version :
 1. When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
 
 ## Supported assets
-1. ada (6 decimals: `0.000000`) 1 ada = 1000000 lovelace
+1. ada (6 decimals) 1 ada = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ada
 3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
+4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
+5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ada` is automatically converted to `1.234567 ada` (ie `1234567 lovelace`).
 
@@ -168,7 +170,7 @@ You can tip someone by sending the following message in a public Discord channel
 - `amount` is the amount you want to tip
 - `asset` is the asset you want to tip
 - `message` is an optional text
-- 
+
 The complete command could look like `@CardanoTipBot !tip 3 ada, 1000000 hosky wow great work, thank you!` on Twitter or `!tip @DiscordUser 3 ada, 1000000 hosky wow great work, thank you!` on Discord.
 
 ### Twitter specific commands
