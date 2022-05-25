@@ -132,7 +132,7 @@ On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to cre
     Assets supported for deposits*:
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
 
-    Recommended deposit amount: 2.0 ADA
+    Recommended deposit amount: 3.0 ADA
     Deposit fee**: 0.1 ADA
     
     * Any deposit containing an unsupported asset will be returned MANUALLY, minus deposit fee**
