@@ -38,7 +38,9 @@ Twitter and Discord version :
 1. When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
 
 Telegram : 
-1. Your internal wallet is linked to your Telegram @username. If you change your Telegram @username you will lose your balance, please withdraw your assets before changing it.
+1. Your internal wallet is linked to your Telegram @username. 
+   1. If your Telegram @username is not configured in your settings, you will not be able to use the bot. 
+   2. If you change your Telegram @username you will lose your balance, please withdraw your assets before changing it.
 
 ## Supported assets
 1. ADA (6 decimals) 1 ADA = 1000000 lovelace
@@ -73,7 +75,7 @@ On Twitter, you can send a direct message to [@CardanoTipBot](https://twitter.co
 
 On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to create and view information about your wallet:
 
-On Telegram, you can send a private message to <b>@CardanoTip_bot</b> to create and view information about your wallet:
+On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create and view information about your wallet:
 
 <b>WARNING FOR USERS : Make sure the bot username is the one mentioned above to prevent SCAM. On Discord, if the identifier after Cardano Tip Bot is not #7235, it's a SCAM.</b>
 
