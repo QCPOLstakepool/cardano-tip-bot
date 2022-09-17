@@ -1,7 +1,7 @@
 # cardano-tip-bot
-Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!
-Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
-Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
+1. Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!
+2. Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
+3. Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
 ## Disclamer / Terms of uses
 
