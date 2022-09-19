@@ -1,7 +1,7 @@
 # cardano-tip-bot
-1. Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!
-2. Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
-3. Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
+Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!
+Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
+Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
 ## Disclamer / Terms of uses
 
@@ -48,6 +48,7 @@ Telegram :
 3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
 4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
 5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
+6. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
