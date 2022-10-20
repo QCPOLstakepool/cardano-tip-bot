@@ -208,7 +208,12 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
 1. `!rain <duration> <assets>` allows you to distribute `<assets>` equally among everyone who sent at least one message in the last `<duration>` timeframe in the channel. For examples: 
     - `!rain 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes
     - `!rain 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes
+2. `!createraininterval <interval> <duration> <assets>` allows you to setup an automatic rain on the channel.    
+    - `!createraininterval 1h 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes, every hour
+    - `!createraininterval 24h 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes, every 24 hours
     
+    **NOTE: If your balance is insufficient when the interval executes, the interval will be removed automatically and you will need to recreate it.**
+3. `!removeraininterval` will remove your rain interval in the current channel, if any.
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
