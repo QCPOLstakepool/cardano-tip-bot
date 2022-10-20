@@ -3,7 +3,7 @@
 - Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 - Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
-## Disclamer / Terms of uses
+## Disclaimer / Terms of uses
 
 By using the Cardano Tip Bot you are accepting the following terms :
 
@@ -261,7 +261,7 @@ Yes, multiple amount and assets can be specified in the following format `amount
 ## Like the bot? Support us!
 If you like bot and would like to support us, you can:
 1) Tip the bot!
-   1) On Twitter (reply `@CardanoTipBot !tip 1 ADA` to a tweet by @CardanoTipBot)
+   1) On Twitter (reply `@CardanoTipBot !tip 1 ADA` to a tweet by @Cardano_Tip_Bot)
    2) On Discord by using the following command on any server where the bot is present `!tip @CardanoTipBot 1 ADA`
-   3) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTipBot 1 ADA`
+   3) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTip_Bot 1 ADA`
 2) Stake some $ADA with [QCPOL Stake Pool](https://pool.pm/c2b8bff5160dd75149f2cae0955698550e8cf0d390025b26a9508a3e)
