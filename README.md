@@ -72,7 +72,7 @@ It is not possible to link your Twitter and Discord account at the moment, but i
 
 ## How to use
 ### Direct/Private messages
-On Twitter, you can send a direct message to [@CardanoTipBot](https://twitter.com/CardanoTipBot) to create and view information about your wallet:
+On Twitter, you can send a direct message to [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to create and view information about your wallet:
 
 On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to create and view information about your wallet:
 
@@ -166,13 +166,13 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
 
 ### How to tip?
 #### Twitter
-You can tip someone by replying to one of their tweet: `@CardanoTipBot !tip <amount> <asset> [message]` where:
+You can tip someone by replying to one of their tweet: `@Cardano_Tip_Bot !tip <amount> <asset> [message]` where:
 
 - `amount` is the amount you want to tip
 - `asset` is the asset you want to tip (case insensitive)
 - `message` is an optional text
 
-The complete command could look like `@CardanoTipBot !tip 3 ADA, 1000000 hosky wow great work, thank you!` on Twitter
+The complete command could look like `@Cardano_Tip_Bot !tip 3 ADA, 1000000 hosky wow great work, thank you!` on Twitter
 
 #### Discord
 Before tipping someone make sure the bot is on the Discord server by checking for user <b>Cardano Tip Bot#7235</b>.
@@ -198,11 +198,11 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
 
 ### Specific commands
 #### Twitter 
-1. `.@CardanoTipBot !giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who replies to the tweet in the next `<duration>` timeframe. It can only be used when posting a new tweet (not a reply and not a retweet). For examples:
-    - `.@CardanoTipBot !giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who replies to the tweet in the next 15 minutes
-    - `.@CardanoTipBot !giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who replies to the tweet in the next 1 hour and 30 minutes
+1. `.@Cardano_Tip_Bot !giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who replies to the tweet in the next `<duration>` timeframe. It can only be used when posting a new tweet (not a reply and not a retweet). For examples:
+    - `.@Cardano_Tip_Bot !giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who replies to the tweet in the next 15 minutes
+    - `.@Cardano_Tip_Bot !giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who replies to the tweet in the next 1 hour and 30 minutes
     
-    **NOTE: The dot (`.`) before `@CardanoTipBot` is important!**
+    **NOTE: The dot (`.`) before `@Cardano_Tip_Bot` is important!**
 
 #### Discord / Telegram
 1. `!rain <duration> <assets>` allows you to distribute `<assets>` equally among everyone who sent at least one message in the last `<duration>` timeframe in the channel. For examples: 
@@ -263,7 +263,7 @@ Yes, multiple amount and assets can be specified in the following format `amount
 ## Like the bot? Support us!
 If you like bot and would like to support us, you can:
 1) Tip the bot!
-   1) On Twitter (reply `@CardanoTipBot !tip 1 ADA` to a tweet by @Cardano_Tip_Bot)
+   1) On Twitter (reply `@Cardano_Tip_Bot !tip 1 ADA` to a tweet by @Cardano_Tip_Bot)
    2) On Discord by using the following command on any server where the bot is present `!tip @CardanoTipBot 1 ADA`
    3) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTip_Bot 1 ADA`
 2) Stake some $ADA with [QCPOL Stake Pool](https://pool.pm/c2b8bff5160dd75149f2cae0955698550e8cf0d390025b26a9508a3e)
