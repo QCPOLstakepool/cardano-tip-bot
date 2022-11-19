@@ -45,7 +45,7 @@ Telegram :
 ## Supported assets
 1. ADA (6 decimals) 1 ADA = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ADA
-3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
+3. HOSKY (`a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235.50494759546f6b656e`) (0 decimal)
 4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
 5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
 6. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
