@@ -3,6 +3,9 @@
 - Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 - Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
+## DEPRECATION OF MINt
+**Support of MINt will be dropped on April 10th 2023 00:00 UTC on all instances (Twitter, Discord and Telegram). Please withdraw your MINt or they will be considered a donation to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
+
 ## Disclaimer / Terms of uses
 
 By using the Cardano Tip Bot you are accepting the following terms :
@@ -45,7 +48,7 @@ Telegram :
 ## Supported assets
 1. ADA (6 decimals) 1 ADA = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ADA
-3. HOSKY (`a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235.50494759546f6b656e`) (0 decimal)
+3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
 4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
 5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
 6. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
@@ -216,6 +219,9 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
     
     **NOTE: If your balance is insufficient when the interval executes, the interval will be removed automatically and you will need to recreate it.**
 2. `!removeraininterval` will remove your rain interval in the current channel, if any.
+3. `!giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who reacts with at least one emoji to the message in the next `<duration>` timeframe. For examples:
+    - `!giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 15 minutes
+    - `!giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 1 hour and 30 minutes
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
