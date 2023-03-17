@@ -52,7 +52,8 @@ Telegram :
 4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
 5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
 6. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
-7. WMT (``1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
+7. WMT (`1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
+8. CLAY (`38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535.434c4159`) (4 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
