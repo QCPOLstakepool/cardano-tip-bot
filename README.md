@@ -224,6 +224,9 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
 3. `!giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who reacts with at least one emoji to the message in the next `<duration>` timeframe. For examples:
     - `!giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 15 minutes
     - `!giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 1 hour and 30 minutes
+4. `!raffle <duration> <assets>` allows you to distribute `<assets>` to one random person who reacted with at least one emoji to the message in the next `<duration>` timeframe. For examples:
+    - `!raffle 15m 1000000 HOSKY` will distribute 1 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 15 minutes
+    - `!raffle 1h30m 10 ADA, 1000000000 HOKSY` will distribute 10 ADA and 1 000 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 1 hour and 30 minutes
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
