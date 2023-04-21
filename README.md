@@ -3,8 +3,11 @@
 - Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 - Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
+## DEPRECATION OF Twitter
+**Due to new Twitter API access levels, the bot will lose access to core APIs needed to run. Starting April 29th 2023, the Twitter version will stop working. Please withdraw all your assets. The assets will be held for a period of 6 months and you can contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for a manual withdrawing. After October 31st 2023, it won't be possible to withdraw the Twitter funds anymore and assets will be donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
+
 ## DEPRECATION OF MINt
-**Support of MINt will be dropped on April 10th 2023 00:00 UTC on all instances (Twitter, Discord and Telegram). Please withdraw your MINt or they will be considered a donation to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
+**Support of MINt was dropped on April 10th 2023 00:00 UTC on all instances (Twitter, Discord and Telegram). The remaining MINt were donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
 
 ## Disclaimer / Terms of uses
 
@@ -49,11 +52,10 @@ Telegram :
 1. ADA (6 decimals) 1 ADA = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ADA
 3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
-4. Minswap MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
-5. Minswap MINt (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e74`) (6 decimals)
-6. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
-7. WMT (`1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
-8. CLAY (`38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535.434c4159`) (4 decimals)
+4. MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
+5. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
+6. WMT (`1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
+7. CLAY (`38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535.434c4159`) (4 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
