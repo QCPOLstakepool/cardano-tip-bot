@@ -1,5 +1,5 @@
 # cardano-tip-bot
-- Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!
+- ~~Use [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to tip ADA &amp; tokens with Twitter!~~
 - Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 - Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
@@ -24,26 +24,17 @@ By using the Cardano Tip Bot you are accepting the following terms :
 ### Examples of what cannot be done when using the Cardano Tip Bot
 1. The Cardano Tip Bot should not be used for online crowdfunding or to fund any political party.
 2. The Cardano Tip Bot can be used with non-Cardano related tweets, but must not spam these non-Cardano related tweets.
-3. The Cardano Tip Bot should not be used in a disrespectful manner to insult or discriminate against another Twitter or Discord user
+3. The Cardano Tip Bot should not be used in a disrespectful manner to insult or discriminate against another Discord or Telegram user
 4. The Cardano Tip Bot should not be used in any criminal/illegal activities.
 5. Store and/or transfer large amount of ADA or tokens.
 
 If any of the above situations are detected or reported, the account will be blocked from the bot temporarily or permanently.
 
 ## Limitations / Processing delays
-Twitter version :
-This bot uses the Twitter API which has some limits:
-
-1. Direct messages can only be queried once per 60 seconds so it can take a little while before receiving an answer.
-2. Tweets have a rate limit of 300 per 3h so the bot might not reply to a tweet after it successfully sent a tip.
-3. If the bot can't reply to a tweet, it will try to like the tweet instead. Again, this has a rate limit of 1000 likes per 24h so the bot might not be able to like a tweet after successfully sending a tip.
-
-You can always send `!balance` as direct message to the bot to validate that your tip went through.
-
-Twitter and Discord version :
+### Discord and Telegram version
 1. When handling deposits/withdrawals, the bot transfers to/from the master wallet and waits for a certain amount of blocks before updating your balance. This is to make sure your deposit/withdrawal isn't rollbacked by a chain fork.
 
-Telegram : 
+### Telegram 
 1. Your internal wallet is linked to your Telegram @username. 
    1. If your Telegram @username is not configured in your settings, you will not be able to use the bot. 
    2. If you change your Telegram @username you will lose your balance, please withdraw your assets before changing it.
@@ -70,17 +61,14 @@ Any decimals beyond what's declared above will be discarded. For example `1.2345
 3. Tip: Free!
 
 ## How it works
-
-Each Twitter user or Discord user gets assigned its own, unique deposit address. The user sends $ADA & supported assets to its deposit address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ADA & assets at any time.
+Each Discord user or Telegram user gets assigned its own, unique deposit address. The user sends $ADA & supported assets to its deposit address to funds its balance. CardanoTipBot will move these funds to a central wallet and update the user's balance in the internal database. The user can now tip other users. The user can also withdraw its $ADA & assets at any time.
 
 ![HowItWorks.drawio.svg](HowItWorks.drawio.svg)
 
-It is not possible to link your Twitter and Discord account at the moment, but it may be possible in the future. 
+It is not possible to link your Discord and Telegram account at the moment, but it may be possible in the future. 
 
 ## How to use
 ### Direct/Private messages
-On Twitter, you can send a direct message to [@Cardano_Tip_Bot](https://twitter.com/Cardano_Tip_Bot) to create and view information about your wallet:
-
 On Discord, you can send a private message to <b>Cardano Tip Bot#7235</b> to create and view information about your wallet:
 
 On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create and view information about your wallet:
@@ -172,15 +160,6 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     The complete command could look like `!withdraw addr1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 3 ADA, 1000000 hosky` or `!withdraw $your_ADA_handle 4 ADA`
 
 ### How to tip?
-#### Twitter
-You can tip someone by replying to one of their tweet: `@Cardano_Tip_Bot !tip <amount> <asset> [message]` where:
-
-- `amount` is the amount you want to tip
-- `asset` is the asset you want to tip (case insensitive)
-- `message` is an optional text
-
-The complete command could look like `@Cardano_Tip_Bot !tip 3 ADA, 1000000 hosky wow great work, thank you!` on Twitter
-
 #### Discord
 Before tipping someone make sure the bot is on the Discord server by checking for user <b>Cardano Tip Bot#7235</b>.
 
@@ -204,31 +183,27 @@ You can tip someone by sending the following message in a public Telegram channe
 The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wow great work, thank you!` on Telegram.
 
 ### Specific commands
-#### Twitter 
-1. `.@Cardano_Tip_Bot !giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who replies to the tweet in the next `<duration>` timeframe. It can only be used when posting a new tweet (not a reply and not a retweet). For examples:
-    - `.@Cardano_Tip_Bot !giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who replies to the tweet in the next 15 minutes
-    - `.@Cardano_Tip_Bot !giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who replies to the tweet in the next 1 hour and 30 minutes
-    
-    **NOTE: The dot (`.`) before `@Cardano_Tip_Bot` is important!**
-
 #### Discord / Telegram
 1. `!rain <duration> <assets>` allows you to distribute `<assets>` equally among everyone who sent at least one message in the last `<duration>` timeframe in the channel. For examples: 
     - `!rain 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes
     - `!rain 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes
 
 #### Discord
-1. `!createraininterval <interval> <duration> <assets>` allows you to setup an automatic rain on the channel.    
-    - `!createraininterval 1h 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes, every hour
-    - `!createraininterval 24h 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes, every 24 hours
+1. [RESTRICTED]<sup>1</sup> `!createraininterval <name> <interval> <duration> <assets>` allows you to setup an automatic rain on the channel.    
+    - `!createraininterval hourly-rain 1h 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 15 minutes, every hour
+    - `!createraininterval daily-rain 24h 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who sent a message in the channel in the last 1 hour and 30 minutes, every 24 hours
     
     **NOTE: If your balance is insufficient when the interval executes, the interval will be removed automatically and you will need to recreate it.**
-2. `!removeraininterval` will remove your rain interval in the current channel, if any.
-3. `!giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who reacts with at least one emoji to the message in the next `<duration>` timeframe. For examples:
+2. [RESTRICTED]<sup>1</sup> `!removeraininterval <name>` will remove your rain interval named '<name>' in the current channel.
+3. [RESTRICTED]<sup>1</sup> `!listraininterval` will list all your active rain intervals in the current channel.
+4. `!giveaway <duration> <assets>` allows you to distribute `<assets>` equally among everyone who reacts with at least one emoji to the message in the next `<duration>` timeframe. For examples:
     - `!giveaway 15m 1000000 HOSKY` will distribute a total of 1 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 15 minutes
     - `!giveaway 1h30m 10 ADA, 1000000000 HOKSY` will distribute a total of 10 ADA and 1 000 000 000 HOSKY split equally among everyone who reacts with an emoji to the message in the next 1 hour and 30 minutes
-4. `!raffle <duration> <assets>` allows you to distribute `<assets>` to one random person who reacted with at least one emoji to the message in the next `<duration>` timeframe. For examples:
+5. `!raffle <duration> <assets>` allows you to distribute `<assets>` to one random person who reacted with at least one emoji to the message in the next `<duration>` timeframe. For examples:
     - `!raffle 15m 1000000 HOSKY` will distribute 1 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 15 minutes
     - `!raffle 1h30m 10 ADA, 1000000000 HOKSY` will distribute 10 ADA and 1 000 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 1 hour and 30 minutes
+
+<sup>1</sup> Restricted commands are not available to everyone.
 
 ## Roadmap
 ### Phase 1 ✅ 2022-01-29
@@ -276,7 +251,6 @@ Yes, multiple amount and assets can be specified in the following format `amount
 ## Like the bot? Support us!
 If you like bot and would like to support us, you can:
 1) Tip the bot!
-   1) On Twitter (reply `@Cardano_Tip_Bot !tip 1 ADA` to a tweet by @Cardano_Tip_Bot)
-   2) On Discord by using the following command on any server where the bot is present `!tip @CardanoTipBot 1 ADA`
-   3) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTip_Bot 1 ADA`
+   1) On Discord by using the following command on any server where the bot is present `!tip @CardanoTipBot 1 ADA`
+   2) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTip_Bot 1 ADA`
 2) Stake some $ADA with [QCPOL Stake Pool](https://pool.pm/c2b8bff5160dd75149f2cae0955698550e8cf0d390025b26a9508a3e)
