@@ -201,6 +201,7 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
 5. `/raffle <duration> <assets>` allows you to distribute `<assets>` to one random person who reacted with at least one emoji to the message in the next `<duration>` timeframe. For examples:
     - `/raffle 15m 1000000 HOSKY` will distribute 1 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 15 minutes
     - `/raffle 1h30m 10 ADA, 1000000000 HOKSY` will distribute 10 ADA and 1 000 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 1 hour and 30 minutes
+6. `/flash <emoji> <assets>` allows you to distribute `<assets>` to the first person who reacts with `<emoji>` to the message. 
 
 <sup>1</sup> Restricted commands are not available to everyone.
 
