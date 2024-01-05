@@ -48,6 +48,7 @@ If any of the above situations are detected or reported, the account will be blo
 7. BOOK (`51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34.424f4f4b`) (6 decimals)
 8. rsERG (`04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb14.7273455247`) (9 decimals)
 9. AXO (`420000029ad9527271b1b1e3c27ee065c18df70a4a4cfc3093a41a44.41584f`) (9 decimals)
+10. NMKR (`5dac8536653edc12f6f5e1045d8164b9f59998d3bdc300fc92843489.4e4d4b52`) (6 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
