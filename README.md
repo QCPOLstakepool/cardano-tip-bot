@@ -41,12 +41,13 @@ If any of the above situations are detected or reported, the account will be blo
 ## Supported assets
 1. ADA (6 decimals) 1 ADA = 1000000 lovelace
 2. lovelace (0 decimal) 1 lovelace = 0.000001 ADA
-3. HOSKY (`2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e`) (0 decimal)
+3. HOSKY (`a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235.484f534b59`) (0 decimal)
 4. MIN (`29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6.4d494e`) (6 decimals)
-5. GRASS (`32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a.4752415353`) (6 decimals)
-6. WMT (`1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
-7. CLAY (`38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535.434c4159`) (4 decimals)
-8. BOOK (`51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34.424f4f4b`) (6 decimals)
+5. WMT (`1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e.776f726c646d6f62696c65746f6b656e`) (6 decimals)
+6. CLAY (`38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535.434c4159`) (4 decimals)
+7. BOOK (`51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34.424f4f4b`) (6 decimals)
+8. rsERG (`04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb14.7273455247`) (9 decimals)
+9. AXO (`420000029ad9527271b1b1e3c27ee065c18df70a4a4cfc3093a41a44.41584f`) (9 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
