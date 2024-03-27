@@ -1,0 +1,61 @@
+[{
+  "display_name": "HOSKY",
+  "policy_id": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235",
+  "asset_name": "484f534b59",
+  "decimals": 0
+}, {
+  "display_name": "MIN",
+  "policy_id": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6",
+  "asset_name": "4d494e",
+  "decimals": 6
+}, {
+  "display_name": "GRASS",
+  "policy_id": "32cc9c6c3456bc048d14a4a8e4ee3592e9664e8daac921a8ef52d92a",
+  "asset_name": "4752415353",
+  "decimals": 6
+}, {
+  "display_name": "WMT",
+  "policy_id": "1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e",
+  "asset_name": "776f726c646d6f62696c65746f6b656e",
+  "decimals": 6
+}, {
+  "display_name": "CLAY",
+  "policy_id": "38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535",
+  "asset_name": "434c4159",
+  "decimals": 4
+}, {
+  "display_name": "BOOK",
+  "policy_id": "51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34",
+  "asset_name": "424f4f4b",
+  "decimals": 6
+}, {
+  "display_name": "DISCO",
+  "policy_id": "5612bee388219c1b76fd527ed0fa5aa1d28652838bcab4ee4ee63197",
+  "asset_name": "446973636f696e",
+  "decimals": 8
+}, {
+  "display_name": "rsERG",
+  "policy_id": "04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb14",
+  "asset_name": "7273455247",
+  "decimals": 9
+}, {
+  "display_name": "AXO",
+  "policy_id": "420000029ad9527271b1b1e3c27ee065c18df70a4a4cfc3093a41a44",
+  "asset_name": "41584f",
+  "decimals": 9
+}, {
+  "display_name": "NMKR",
+  "policy_id": "5dac8536653edc12f6f5e1045d8164b9f59998d3bdc300fc92843489",
+  "asset_name": "4e4d4b52",
+  "decimals": 6
+}, {
+  "display_name": "STRCH",
+  "policy_id": "3d77d63dfa6033be98021417e08e3368cc80e67f8d7afa196aaa0b39",
+  "asset_name": "53746172636820546f6b656e",
+  "decimals": 0
+}, {
+  "display_name": "USDM",
+  "policy_id": "c48cbb3d5e57ed56e276bc45f99ab39abe94e6cd7ac39fb402da47ad",
+  "asset_name": "0014df105553444d",
+  "decimals": 6
+}]
