@@ -13,7 +13,7 @@
 By using the Cardano Tip Bot you are accepting the following terms :
 
 1. We are not responsible for lost funds or incorrect balances. Use at your own risks!
-2. This software is provided to promote engagement in the Twitter [#cardano](https://twitter.com/search?q=%23Cardano) community, any Cardano Discord server or Telegram channel in a fun way. 
+2. This software is provided to promote engagement in Cardano Discord servers or Cardano Telegram channels in a fun way. 
 
 ### Examples of recommended uses of the Cardano Tip Bot
 1. Tip a Cardano community member for a positive contribution to the ecosystem.
@@ -49,6 +49,7 @@ If any of the above situations are detected or reported, the account will be blo
 8. rsERG (`04b95368393c821f180deee8229fbd941baaf9bd748ebcdbf7adbb14.7273455247`) (9 decimals)
 9. AXO (`420000029ad9527271b1b1e3c27ee065c18df70a4a4cfc3093a41a44.41584f`) (9 decimals)
 10. NMKR (`5dac8536653edc12f6f5e1045d8164b9f59998d3bdc300fc92843489.4e4d4b52`) (6 decimals)
+11. USDM (`c48cbb3d5e57ed56e276bc45f99ab39abe94e6cd7ac39fb402da47ad.0014df105553444d`) (6 decimals)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
@@ -83,7 +84,7 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     USE AT YOUR OWN RISKS!
     WE ARE NOT RESPONSIBLE OF LOST FUNDS!
    
-   BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
+    BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
     
     Please refer to the user guide in my profile's description for how to use me.
 
@@ -92,7 +93,8 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     2000000 HOSKY
 
     Minimum withdrawal amount: 2.0 ADA
-    Withdrawal fee*: 0.1 ADA
+    Deposit fee: 0.1 ADA + network fee*
+    Withdrawal fee: 0.1 ADA + network fee** (capped at 0.5 ADA)
 
     Available commands:
     
@@ -108,7 +110,8 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     /withdraw <address or $handle> <amount> <asset>
     Withdraw ADA & assets
 
-    * Plus an extra network fee of about 0.2 ADA to move to/from master wallet
+    * Network fee for /deposit is about ~0.2 ADA
+    **  Network fee for /withdraw can be up to 1.0 ADA, but the overall fees paid by the user is capped at 0.5 ADA
     ``` 
     
 2. `/balance` will return the following message:
@@ -125,7 +128,7 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     USE AT YOUR OWN RISKS!
     WE ARE NOT RESPONSIBLE OF LOST FUNDS!
    
-   BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
+    BY SENDING A COMMAND TO THE BOT, YOU AGREE TO THE TERMS OF USE MENTIONED IN THE BOT GUIDE.
     
     Please refer to the user guide in my profile's description for how to use me.
     
@@ -139,11 +142,11 @@ On Telegram, you can send a private message to <b>@CardanoTip_Bot</b> to create 
     - HOSKY (2aa9c1557fcf8e7caa049fa0911a8724a1cdaf8037fe0b431c6ac664.50494759546f6b656e)
 
     Recommended deposit amount: 3.0 ADA
-    Deposit fee**: 0.1 ADA
+    Deposit fee: 0.1 ADA + network fee**
     
     * Any deposit containing an unsupported asset will be returned MANUALLY, minus deposit fee**
 
-    ** Plus an extra network fee of about 0.2 ADA to move to/from master wallet
+    ** Network fee is about ~0.2 ADA
     ```
 
 4. `/withdraw <address or $handle> <amount> <asset>` will allow you to send the `<amount> <asset>` to an `<address>` where:
@@ -204,6 +207,8 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
     - `/raffle 15m 1000000 HOSKY` will distribute 1 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 15 minutes
     - `/raffle 1h30m 10 ADA, 1000000000 HOKSY` will distribute 10 ADA and 1 000 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 1 hour and 30 minutes
 6. `/flash <emoji> <assets>` allows you to distribute `<assets>` to the first person who reacts with `<emoji>` to the message. 
+7. `/trade_wallet` allows you to see your trade wallet information (address, seed, balance, etc.)
+8. `/swap <in asset quantity> <in asset name> <out asset name>` allows you to swap `<in asset quantity>` of `<in asset name>` for `<out asset name>` using [DexHunter](https://www.dexhunter.io/). This uses your trade wallet.
 
 <sup>1</sup> Restricted commands are not available to everyone.
 
