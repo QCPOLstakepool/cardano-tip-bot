@@ -58,4 +58,9 @@
   "policy_id": "c48cbb3d5e57ed56e276bc45f99ab39abe94e6cd7ac39fb402da47ad",
   "asset_name": "0014df105553444d",
   "decimals": 6
+}, {
+  "display_name": "GIRLS",
+  "policy_id": "957d1c7fed7152f4cc49e97d5025e4093f72dc7cffd848d5727af495",
+  "asset_name": "4749524c53",
+  "decimals": 0
 }]
