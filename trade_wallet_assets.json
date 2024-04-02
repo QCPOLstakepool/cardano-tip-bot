@@ -68,4 +68,9 @@
   "policy_id": "9b426921a21f54600711da0be1a12b026703a9bd8eb9848d08c9d921",
   "asset_name": "434154534b59",
   "decimals": 0
+}, {
+  "display_name": "HWIF",
+  "policy_id": "615597811be9cbf1b00c2c00c614d0baf0abf62405c2f0a40b2cab4f",
+  "asset_name": "48574946",
+  "decimals": 0
 }]
