@@ -118,4 +118,159 @@
   "policy_id": "8fef2d34078659493ce161a6c7fba4b56afefa8535296a5743f69587",
   "asset_name": "41414441",
   "decimals": 6
+}, {
+  "display_name": "iUSD",
+  "policy_id": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
+  "asset_name": "69555344",
+  "decimals": 6
+}, {
+  "display_name": "SHEN",
+  "policy_id": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
+  "asset_name": "5368656e4d6963726f555344",
+  "decimals": 6
+}, {
+  "display_name": "SUNDAE",
+  "policy_id": "9a9693a9a37912a5097918f97918d15240c92ab729a0b7c4aa144d77",
+  "asset_name": "53554e444145",
+  "decimals": 6
+}, {
+  "display_name": "RJV",
+  "policy_id": "8cfd6893f5f6c1cc954cec1a0a1460841b74da6e7803820dde62bb78",
+  "asset_name": "524a56",
+  "decimals": 6
+}, {
+  "display_name": "BTN",
+  "policy_id": "016be5325fd988fea98ad422fcfd53e5352cacfced5c106a932a35a4",
+  "asset_name": "42544e",
+  "decimals": 6
+}, {
+  "display_name": "NVL",
+  "policy_id": "5b26e685cc5c9ad630bde3e3cd48c694436671f3d25df53777ca60ef",
+  "asset_name": "4e564c",
+  "decimals": 6
+}, {
+  "display_name": "NEWM",
+  "policy_id": "682fe60c9918842b3323c43b5144bc3d52a23bd2fb81345560d73f63",
+  "asset_name": "4e45574d",
+  "decimals": 6
+}, {
+  "display_name": "MILK",
+  "policy_id": "afbe91c0b44b3040e360057bf8354ead8c49c4979ae6ab7c4fbdc9eb",
+  "asset_name": "4d494c4b7632",
+  "decimals": 6
+}, {
+  "display_name": "FLDT",
+  "policy_id": "577f0b1342f8f8f4aed3388b80a8535812950c7a892495c0ecdf0f1e",
+  "asset_name": "0014df10464c4454",
+  "decimals": 6
+}, {
+  "display_name": "FACT",
+  "policy_id": "a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e51",
+  "asset_name": "6f7263666178746f6b656e",
+  "decimals": 6
+}, {
+  "display_name": "ENCS",
+  "policy_id": "9abf0afd2f236a19f2842d502d0450cbcd9c79f123a9708f96fd9b96",
+  "asset_name": "454e4353",
+  "decimals": 6
+}, {
+  "display_name": "SOC",
+  "policy_id": "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c",
+  "asset_name": "534f4349455459",
+  "decimals": 6
+}, {
+  "display_name": "iBTC",
+  "policy_id": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
+  "asset_name": "69425443",
+  "decimals": 6
+}, {
+  "display_name": "OPTIM",
+  "policy_id": "e52964af4fffdb54504859875b1827b60ba679074996156461143dc1",
+  "asset_name": "4f5054494d",
+  "decimals": 6
+}, {
+  "display_name": "GENS",
+  "policy_id": "dda5fdb1002f7389b33e036b6afee82a8189becb6cba852e8b79b4fb",
+  "asset_name": "0014df1047454e53",
+  "decimals": 6
+}, {
+  "display_name": "EMP",
+  "policy_id": "6c8642400e8437f737eb86df0fc8a8437c760f48592b1ba8f5767e81",
+  "asset_name": "456d706f7761",
+  "decimals": 6
+}, {
+  "display_name": "FLAC",
+  "policy_id": "8daefa391220bd0d8d007f3748d870f7f3c106040314c8515ccc35a5",
+  "asset_name": "464c4143",
+  "decimals": 6
+}, {
+  "display_name": "CBLP",
+  "policy_id": "ee0633e757fdd1423220f43688c74678abde1cead7ce265ba8a24fcd",
+  "asset_name": "43424c50",
+  "decimals": 6
+}, {
+  "display_name": "DJED",
+  "policy_id": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
+  "asset_name": "446a65644d6963726f555344",
+  "decimals": 6
+}, {
+  "display_name": "iETH",
+  "policy_id": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
+  "asset_name": "69455448",
+  "decimals": 6
+}, {
+  "display_name": "JPG",
+  "policy_id": "681b5d0383ac3b457e1bcc453223c90ccef26b234328f45fa10fd276",
+  "asset_name": "4a5047",
+  "decimals": 6
+}, {
+  "display_name": "XRAY",
+  "policy_id": "86abe45be4d8fb2e8f28e8047d17d0ba5592f2a6c8c452fc88c2c143",
+  "asset_name": "58524159",
+  "decimals": 6
+}, {
+  "display_name": "PAVIA",
+  "policy_id": "884892bcdc360bcef87d6b3f806e7f9cd5ac30d999d49970e7a903ae",
+  "asset_name": "5041564941",
+  "decimals": 0
+}, {
+  "display_name": "OPT",
+  "policy_id": "1ddcb9c9de95361565392c5bdff64767492d61a96166cb16094e54be",
+  "asset_name": "4f5054",
+  "decimals": 6
+}, {
+  "display_name": "WRT",
+  "policy_id": "c0ee29a85b13209423b10447d3c2e6a50641a15c57770e27cb9d5073",
+  "asset_name": "57696e67526964657273",
+  "decimals": 6
+}, {
+  "display_name": "VYFI",
+  "policy_id": "804f5544c1962a40546827cab750a88404dc7108c0f588b72964754f",
+  "asset_name": "56594649",
+  "decimals": 6
+}, {
+  "display_name": "CHRY",
+  "policy_id": "75fcc276057db5fc48eae0e11453c773c8a54604c3086bf9d95ac1b7",
+  "asset_name": "43485259",
+  "decimals": 6
+}, {
+  "display_name": "FREN",
+  "policy_id": "fc11a9ef431f81b837736be5f53e4da29b9469c983d07f321262ce61",
+  "asset_name": "4652454e",
+  "decimals": 0
+}, {
+  "display_name": "LIFI",
+  "policy_id": "7914fae20eb2903ed6fd5021a415c1bd2626b64a2d86a304cb40ff5e",
+  "asset_name": "4c494649",
+  "decimals": 6
+}, {
+  "display_name": "MNT",
+  "policy_id": "43b07d4037f0d75ee10f9863097463fc02ff3c0b8b705ae61d9c75bf",
+  "asset_name": "4d796e746820546f6b656e",
+  "decimals": 6
+}, {
+  "display_name": "GERO",
+  "policy_id": "10a49b996e2402269af553a8a96fb8eb90d79e9eca79e2b4223057b6",
+  "asset_name": "4745524f",
+  "decimals": 6
 }]
