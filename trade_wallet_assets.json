@@ -340,5 +340,11 @@
     "policy_id": "9b426921a21f54600711da0be1a12b026703a9bd8eb9848d08c9d921",
     "asset_name": "434154534b59",
     "decimals": 0
+  },
+  {
+    "display_name": "DANZO",
+    "policy_id": "bf3e19192da77dfadc7c9065944e50ca7e1a439d90833e3ae58b720a",
+    "asset_name": "44414e5a4f",
+    "decimals": 0
   }
 ]
