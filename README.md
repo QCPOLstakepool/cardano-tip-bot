@@ -50,6 +50,7 @@ If any of the above situations are detected or reported, the account will be blo
 9. AXO (`420000029ad9527271b1b1e3c27ee065c18df70a4a4cfc3093a41a44.41584f`) (9 decimals)
 10. NMKR (`5dac8536653edc12f6f5e1045d8164b9f59998d3bdc300fc92843489.4e4d4b52`) (6 decimals)
 11. USDM (`c48cbb3d5e57ed56e276bc45f99ab39abe94e6cd7ac39fb402da47ad.0014df105553444d`) (6 decimals)
+12. BEARD (`8d7526784ef72fe0ccdd085976ada0da88e7fb013e38e794b0923341.4245415244`) (0 decimal)
 
 Any decimals beyond what's declared above will be discarded. For example `1.23456789 ADA` is automatically converted to `1.234567 ADA` (ie `1234567 lovelace`).
 
@@ -59,8 +60,8 @@ Any decimals beyond what's declared above will be discarded. For example `1.2345
 - `B` = * 1 000 000 000 (`1B HOSKY` = `1000000000 HOSKY`)
 
 ## Fees
-1. Deposit fee: 0.1 developer $ADA + network transaction fee (about 0.18-0.20 $ADA)
-2. Withdrawal fee: 0.1 developer $ADA + network transaction fee (about 0.18-0.20 $ADA)
+1. Deposit fee: 0.25 developer $ADA + network transaction fee (about 0.18-0.20 $ADA)
+2. Withdrawal fee: 0.25 developer $ADA + network transaction fee (about 0.18-0.20 $ADA)
 3. Tip: Free!
 
 ## How it works
