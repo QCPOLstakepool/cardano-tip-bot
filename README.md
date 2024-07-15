@@ -3,17 +3,12 @@
 - Use [Cardano Tip Bot#7235] to tip ADA &amp; tokens with Discord!
 - Use [@CardanoTip_Bot] to tip ADA &amp; tokens with Telegram!
 
-## DEPRECATION OF Twitter
-**Due to new Twitter API access levels, the bot will lose access to core APIs needed to run. Starting April 29th 2023, the Twitter version will stop working. Please withdraw all your assets. The assets will be held for a period of 6 months and you can contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for a manual withdrawing. After October 31st 2023, it won't be possible to withdraw the Twitter funds anymore and assets will be donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
-
-## DEPRECATION OF MINt
-**Support of MINt was dropped on April 10th 2023 00:00 UTC on all instances (Twitter, Discord and Telegram). The remaining MINt were donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
-
 ## Disclaimer / Terms of uses
 By using the Cardano Tip Bot you are accepting the following terms :
 
 1. We are not responsible for lost funds or incorrect balances. Use at your own risks!
 2. This software is provided to promote engagement in Cardano Discord servers or Cardano Telegram channels in a fun way. 
+3. Inactive accounts will be deleted after 180 days. An account is considered inactive if it didn't send or receive tips in 180 consecutive days.
 
 ### Examples of recommended uses of the Cardano Tip Bot
 1. Tip a Cardano community member for a positive contribution to the ecosystem.
@@ -239,3 +234,11 @@ If you like bot and would like to support us, you can:
    1) On Discord by using the following command on any server where the bot is present `/tip @CardanoTipBot 1 ADA`
    2) On Telegram by using the following command on any channel where the bot is present `!tip @CardanoTip_Bot 1 ADA`
 2) Stake some $ADA with [QCPOL Stake Pool](https://pool.pm/c2b8bff5160dd75149f2cae0955698550e8cf0d390025b26a9508a3e)
+
+# ARCHIVE
+
+## DEPRECATION OF Twitter
+**Due to new Twitter API access levels, the bot will lose access to core APIs needed to run. Starting April 29th 2023, the Twitter version will stop working. Please withdraw all your assets. The assets will be held for a period of 6 months and you can contact [@QCPOLstakepool](https://twitter.com/QCPOLstakepool) for a manual withdrawing. After October 31st 2023, it won't be possible to withdraw the Twitter funds anymore and assets will be donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
+
+## DEPRECATION OF MINt
+**Support of MINt was dropped on April 10th 2023 00:00 UTC on all instances (Twitter, Discord and Telegram). The remaining MINt were donated to the authors ([@QCPOLstakepool](https://twitter.com/QCPOLstakepool)).**
