@@ -203,8 +203,6 @@ The complete command could look like `!tip @TelegramUser 3 ADA, 1000000 hosky wo
     - `/raffle 15m 1000000 HOSKY` will distribute 1 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 15 minutes
     - `/raffle 1h30m 10 ADA, 1000000000 HOKSY` will distribute 10 ADA and 1 000 000 000 HOSKY to one random person who reacts with an emoji to the message in the next 1 hour and 30 minutes
 6. `/flash <emoji> <assets>` allows you to distribute `<assets>` to the first person who reacts with `<emoji>` to the message. 
-7. `/trade_wallet` allows you to see your trade wallet information (address, seed, balance, etc.)
-8. `/swap <in asset quantity> <in asset name> <out asset name>` allows you to swap `<in asset quantity>` of `<in asset name>` for `<out asset name>` using [DexHunter](https://www.dexhunter.io/). This uses your trade wallet.
 
 <sup>1</sup> Restricted commands are not available to everyone.
 
